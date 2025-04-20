@@ -1,0 +1,7 @@
+users:
+  youruser:
+    password: "$argon2id$v=19$m=65536,t=1,p=2$..." # Hashed password
+    displayname: "Ritik Chauhan"
+    email: "ritikchauhan359@gmail.com.com"
+    groups:
+      - admins

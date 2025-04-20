@@ -1,0 +1,6 @@
+You can generate hashed passwords with:
+bash
+ahuthelia hash-password 'yourpassword'
+
+or
+docker run authelia/authelia:latest authelia hash-password 'yourpassword'

@@ -1,0 +1,20 @@
+You have an SSH key locally (~/.ssh/id_rsa and id_rsa.pub)
+
+The public key is injected into the VM via Terraform metadata
+
+You are using an Ubuntu 22.04 base image
+
+You're deploying a repo that has a docker-compose.yml in its root (we'll simulate this in the example)
+
+
+
+final Steps to Use It
+1. Initialize Terraform:
+terraform init
+
+2. Validate config and see plan:
+terraform plan
+
+3. Apply :
+terraform Apply
+

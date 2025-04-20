@@ -1,0 +1,8 @@
+SSL termination (with Let's Encrypt or self-signed)
+
+Route /gitea to Gitea
+
+Route /grafana to Grafana
+
+Use Authelia as the authentication gateway
+

@@ -1,0 +1,49 @@
+
+If you are not using terraform.
+
+🧪 Final Steps
+Edit /etc/hosts on your local machine:
+
+127.0.0.1 gitea.example.com grafana.example.com auth.example.com
+Start everything:
+
+bash
+docker-compose up -d
+Open in your browser:
+
+http://gitea.example.com
+
+http://grafana.example.com
+
+
+
+
+Grafana Configuration for logging and monitoring.
+
+🔹 Step 1: Add Loki as a Data Source
+  Access Grafana: http://<your-ip>:3001
+
+  Go to Settings → Data Sources
+
+  Click Add data source
+
+  Choose Loki
+
+  URL: http://loki:3100
+
+  Save & test
+🔹 Step 2: Explore Logs
+  Use LogQL queries like:
+  {job="gitea"}
+  {job="authelia"}
+
+
+
+
+
+
+If you are using terrafrom check the readme file in gcp-terrafrom folder.
+
+
+
+
